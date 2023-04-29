@@ -1,5 +1,5 @@
 if not game:IsLoaded() then game.Loaded:Wait() end
-if getgenv().Guardian then return end
+if getgenv().Evicted then return end
 getgenv().options={
     MaliciousNamecalls={
         Enabled=true,
@@ -39,7 +39,7 @@ getgenv().options={
     AntiIdle=true,
     Output=warn --Change to your prefered output option (print,warn,printconsole,rconsoleprint,rconsolewarn,etc)
 }
-getgenv().Guardian={
+getgenv().Evicted={
     SetAll=function(a)
         for i, v in next,options do
             if typeof(v)=="table" then
@@ -53,13 +53,13 @@ getgenv().Guardian={
     end
 }
 game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title="Guardian has been activated",
-    Text="Guardian is now protecting you in the background",
+    Title="Evicted has been activated",
+    Text="Evicted is now protecting you in the background. Your client is safe.",
     Button1="Okay!",
     Duration=8
 })
 game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title="By Hypernova#0721",
+    Title="By Anth#6000",
     Text="With love <3",
     Button1="<3",
     Duration=8
