@@ -57,10 +57,10 @@ EvictedLauncher = false
 GuardianEnabled = true -- set to true when running evicted code
 
 AntiReport = true
-Anti-Log = true
-Anti-Webhook = true
-Anti-Scam = true
-All-Games = true -- set to true if your universalling exploiting
+Anti_Log = true
+Anti_Webhook = true
+Anti_Scam = true
+All_Games = true -- set to true if your universalling exploiting
 
 Redirect-Fix = true -- if script crashes it auto fixes.
 
