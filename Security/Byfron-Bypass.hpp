@@ -7,7 +7,7 @@
 #include <DbgHelp.h>
 #pragma warning(pop)
 
-namespace syn
+namespace evicted
 {
 	struct SegmentInfo
 	{
