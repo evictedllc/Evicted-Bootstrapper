@@ -1,9 +1,9 @@
 #pragma once
 
-#include "../Misc/Static.hpp"
+#include "Static.hpp"
 #include "./AntiTamper.hpp"
-#include "SysHook.hpp"
-#include "../Security/FunctionReader.hpp"
+#include "EvictedHook.hpp"
+#include "Whitelist.hpp"
 
 #pragma warning(disable : 4191)
 namespace syn::AntiDebug
